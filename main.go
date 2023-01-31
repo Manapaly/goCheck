@@ -1,4 +1,4 @@
-package main
+package awesomeProject1
 
 import "fmt"
 
@@ -57,8 +57,4 @@ func (s *Stack) Increment(value int) {
 		s.Top.Value += value
 		s.Pop()
 	}
-}
-
-func main() {
-
 }
